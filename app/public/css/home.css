@@ -1,0 +1,23 @@
+#content-area .usersBox .pageNav .uwa-page-numbers {
+    color: #9CD1D8;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 3px;
+}
+
+h2.uwa_no_results {
+	display:block;
+	margin: 0 auto;
+	margin-top: 30px;;
+	font-weight: normal;
+	padding: 20px;
+	font-size: 25px;
+}
+
+div.uwa_success_msg, div.uwa_err_msg {
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	margin-left: -300px;
+	width: 600px;
+}

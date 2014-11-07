@@ -29,3 +29,7 @@ function make_file($_file_path, $_contents='') {
 	fclose($file_handler);
 	return basename($_file_path);
 }
+
+function flash_message($_message='') {
+	
+}

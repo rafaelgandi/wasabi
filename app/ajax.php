@@ -4,7 +4,12 @@
 
  */
 class AjaxController {
-
+	private $p;
+	private $g;
+	public function __construct() {
+		$this->p = $_POST;
+		$this->g = $_GET;
+	}
 	public function add_uwa_user() {
 		echo 'hohohohoooho';
 		exit;

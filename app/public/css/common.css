@@ -1,0 +1,25 @@
+.uwa_success_msg {
+	text-align: center;
+	background-color: #7ECFD9;
+	color: #fff;
+	padding: 5px;
+	margin: 0 auto;
+	width: 80%;
+	border-radius: 3px;
+}
+
+.uwa_err_msg {
+	text-align: center;
+	background-color: #E22F2E;
+	color: #fff;
+	padding: 5px;
+	margin: 0 auto;
+	width: 80%;
+	border-radius: 3px;
+}
+
+.uwa_no_results {
+	text-align:center;
+	color: #4D4D4E;
+	padding: 10px;
+}

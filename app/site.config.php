@@ -49,3 +49,9 @@ function doc_root() {
 function ajax_uri() {
 	return get_option('siteurl').'/wp-admin/admin-ajax.php';
 }
+function base_public_dir($_additional_path='') {
+	if (trim($_additional_path) !== '') {
+		return get_theme_root_uri().'/sushi/app/public/'.rtrim(ltrim($_additional_path, '/'), '/');
+	}	
+	return get_theme_root_uri().'/sushi/app/public';
+}
