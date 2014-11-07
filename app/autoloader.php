@@ -15,11 +15,14 @@ $loader->registerNamespaces(array(
 	// Add additional namespaces here //
 	'Pixie' => vendors_dir(), // See: https://github.com/usmanhalalit/pixie
 	'Viocon' => vendors_dir(), // See: https://github.com/usmanhalalit/viocon
-	'CacheCache' => vendors_dir(), // See: http://maximebf.github.io/CacheCache/
+	'CacheCache' => vendors_dir(), // See: http://maximebf.github.io/CacheCache
+	'Respect' => vendors_dir(), // See:https://github.com/Respect/Validation
 	'App' => app_dir(),
 	get_config('app_namespace') => app_dir()
 ));
 $loader->register();
+
+//use Respect\Validation\Validator as V; // Validator alias
 
  
  
